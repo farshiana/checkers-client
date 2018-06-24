@@ -1,0 +1,14 @@
+.Cell {
+	position: relative;
+}
+
+.Cell > button {
+    width: 100%;
+    height: 100%;
+}
+
+.Cell > .Debug {
+	position: absolute;
+	top: 0;
+	left: 0;
+}

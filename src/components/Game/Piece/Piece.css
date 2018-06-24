@@ -1,0 +1,24 @@
+.Piece {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+    height: 100%;
+}
+
+.Piece > button {
+	width: 75%;
+    height: 75%;
+}
+
+.Piece > .Man {
+	border-radius: 50%;
+}
+
+.Piece > .King {
+	border: thin solid black;
+	box-sizing: content-box;
+}

@@ -1,0 +1,28 @@
+.Auth {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10%;
+}
+
+.Auth  > .Wrapper > form {
+	display: flex;
+	flex-direction: column;
+	max-width: 300px;
+}
+
+.Auth > .Wrapper > form > div {
+	height: 68px;
+	margin: 10px 0px 0px 0px;
+}
+
+.Auth > .Wrapper > form > button {
+	margin-top: 14px;
+}
+
+.Auth > .Wrapper > .Switch {
+	margin-top: 15px;
+}
+.Auth > .Wrapper > .Switch > span {
+	margin-right: 4px;
+}

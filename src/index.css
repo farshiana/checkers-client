@@ -1,0 +1,13 @@
+body {
+	margin: 0px;
+}
+
+.Loader {
+	position: absolute;
+	left: calc(50% - 20px);
+	top: calc(50% - 20px);
+}
+
+.PrimaryIcon path {
+	fill: #E91E63;
+}
